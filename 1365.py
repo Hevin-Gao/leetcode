@@ -10,7 +10,7 @@ class Solution:
             res.append(tem)
         return res
 
-# 先排序，然后找第一次出现的index 解决重复出现的情况
+# 先排序，然后找出第一次出现的index 解决重复出现的情况
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
         nn = sorted(nums)
